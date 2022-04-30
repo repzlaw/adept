@@ -1,0 +1,42 @@
+    /* width */
+.bottom-scroll::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    }
+    
+    /* Track */
+    .bottom-scroll::-webkit-scrollbar-track {
+    background: #fff;
+    }
+    
+    /* Handle */
+    .bottom-scroll::-webkit-scrollbar-thumb {
+    background: #d0faee;
+    }
+    
+    /* Handle on hover */
+    .bottom-scroll::-webkit-scrollbar-thumb:hover {
+    background: #d0faee;
+    }
+    .table-responsive{
+        overflow-y: hidden !important;
+    }
+    .table-responsive::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+        }
+        
+        /* Track */
+        .table-responsive::-webkit-scrollbar-track {
+        background: #fff;
+        }
+        
+        /* Handle */
+        .table-responsive::-webkit-scrollbar-thumb {
+        background:rgb(109 129 214);
+        }
+        
+        /* Handle on hover */
+        .table-responsive::-webkit-scrollbar-thumb:hover {
+        background:rgb(109 129 214);
+        }
